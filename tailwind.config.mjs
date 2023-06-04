@@ -1,3 +1,5 @@
+import defaultTheme from 'tailwindcss/defaultTheme'
+
 /** @type {import('tailwindcss').Config} */
 const config = {
     content: [
@@ -6,6 +8,9 @@ const config = {
     ],
     theme: {
         extend: {},
+        fontFamily: {
+            sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        },
     },
     plugins: [
         import( 'flowbite/plugin' ),
