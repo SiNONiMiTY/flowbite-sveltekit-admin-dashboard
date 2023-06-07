@@ -169,7 +169,9 @@
                         </svelte:fragment>
                         <SidebarDropdownItem
                             label="Sign in"
-                            aClass="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700"/>
+                            aClass="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700"
+                            href="/login"
+                            />
                         <SidebarDropdownItem
                             label="Sign up"
                             aClass="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700"/>
@@ -281,7 +283,6 @@
                 </svg>
             </A>
             <A
-                id="tooltip-settings"
                 class="inline-flex justify-center p-2 rounded cursor-pointer"
                 color="text-gray-500 hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
                 data-popover-target="settings-popover"
@@ -293,18 +294,9 @@
                 </svg>
             </A>
 
-            <!-- <Button  id="b1">Default popover</Button> -->
-            <Popover id="settings-popover">
+            <Popover id="settings-popover" defaultClass="px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm tooltip dark:bg-gray-700">
                 Settings page
             </Popover>
-                <!-- And here's some amazing content. It's very engaging. Right?
-            </Popover> -->
-
-            <!-- <Popover role="tooltip" triggeredBy="#tooltip-settings"
-                class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-                Settings page
-                <div class="tooltip-arrow" data-popper-arrow></div>
-            </Popover> -->
 
             <button type="button" data-dropdown-toggle="language-dropdown"
                 class="inline-flex justify-center p-2 text-gray-500 rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
