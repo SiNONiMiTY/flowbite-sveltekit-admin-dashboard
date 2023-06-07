@@ -4,13 +4,13 @@
         Button,
         Dropdown,
         DropdownItem,
-        Popover,
         Sidebar,
         SidebarDropdownItem,
         SidebarDropdownWrapper,
         SidebarGroup,
         SidebarItem,
         SidebarWrapper,
+        Tooltip,
     } from 'flowbite-svelte'
     import { fade } from 'svelte/transition'
 </script>
@@ -290,7 +290,7 @@
             <A
                 class="inline-flex justify-center p-2 rounded cursor-pointer"
                 color="text-gray-500 hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
-                data-popover-target="settings-popover"
+                data-tooltip-target="settings-popover"
                 href="#">
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd"
@@ -298,9 +298,7 @@
                         clip-rule="evenodd"></path>
                 </svg>
             </A>
-            <Popover id="settings-popover" defaultClass="px-3 py-2 text-sm font-medium rounded-lg text-white bg-gray-900 dark:bg-gray-700" arrow={false} transition={fade} params={{duration: 300}}>
-                Settings page
-            </Popover>
+            <Tooltip id="settings-popover" transition={fade} params={{duration: 300}}>Settings page</Tooltip>
             <Button
                 btnClass="inline-flex justify-center p-2 text-gray-500 rounded cursor-pointer dark:hover:text-white dark:text-gray-400 hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
                 id="countries">
