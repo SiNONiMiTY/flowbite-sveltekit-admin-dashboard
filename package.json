@@ -12,11 +12,6 @@
     "type": "module",
     "private": true,
     "license": "ISC",
-    "engines": {
-        "node": ">=18.16.0",
-        "pnpm": ">=8.6.0"
-    },
-    "packageManager": "pnpm@8.6.0",
     "scripts": {
         "dev": "vite dev",
         "build": "vite build",
