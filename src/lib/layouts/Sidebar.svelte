@@ -4,6 +4,7 @@
         Button,
         Dropdown,
         DropdownItem,
+        Popover,
         Sidebar,
         SidebarDropdownItem,
         SidebarDropdownWrapper,
@@ -304,7 +305,10 @@
                         clip-rule="evenodd"></path>
                 </svg>
             </A>
-            <Tooltip id="settings-popover" transition={fade} params={{duration: 300}}>Settings page</Tooltip>
+            <!--<Tooltip id="settings-popover" transition={fade} params={{duration: 300}}>Settings page</Tooltip>-->
+            <Popover id="settings-popover" defaultClass="px-3 py-2 text-sm font-medium rounded-lg text-white bg-gray-900 dark:bg-gray-700" arrow={false} transition={fade} params={{duration: 300}}>
+                Settings page
+            </Popover>
             <Button
                 btnClass="inline-flex justify-center p-2 text-gray-500 rounded cursor-pointer dark:hover:text-white dark:text-gray-400 hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
                 id="countries">
