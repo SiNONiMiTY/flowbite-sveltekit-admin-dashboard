@@ -23,17 +23,17 @@ optionalDependencies:
 
 devDependencies:
   '@capacitor/android':
-    specifier: ^5.0.4
-    version: 5.0.4(@capacitor/core@5.0.4)
+    specifier: ^5.0.5
+    version: 5.0.5(@capacitor/core@5.0.5)
   '@capacitor/app':
-    specifier: ^5.0.2
-    version: 5.0.2(@capacitor/core@5.0.4)
+    specifier: ^5.0.3
+    version: 5.0.3(@capacitor/core@5.0.5)
   '@capacitor/cli':
-    specifier: ^5.0.4
-    version: 5.0.4
+    specifier: ^5.0.5
+    version: 5.0.5
   '@capacitor/core':
-    specifier: ^5.0.4
-    version: 5.0.4
+    specifier: ^5.0.5
+    version: 5.0.5
   '@popperjs/core':
     specifier: ^2.11.8
     version: 2.11.8
@@ -93,24 +93,24 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@capacitor/android@5.0.4(@capacitor/core@5.0.4):
-    resolution: {integrity: sha512-WtXmjRQ0bCtFkwBID/jVEPbqnh0uR9wTSgkW7QNzogDuA0iyJJI2nxDfT9knUmg6mne/CnfTXg093zzdc13C0w==}
+  /@capacitor/android@5.0.5(@capacitor/core@5.0.5):
+    resolution: {integrity: sha512-vH5Qoy+p2Egsu1GtPtOsihHcEI2fCGCIHwlUGPaXXGysudzpzWtJZ5JZNlycJyfRdjECrjkutgbNaHLog+YlXQ==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:
-      '@capacitor/core': 5.0.4
+      '@capacitor/core': 5.0.5
     dev: true
 
-  /@capacitor/app@5.0.2(@capacitor/core@5.0.4):
-    resolution: {integrity: sha512-TRs5Iu94+IfUJ4iiljWC0tuVsHXBOD4asADggpUH6DnwlQo3cVuRnFK+A0jJnWW9GvlFy9uTsXxytzzXP/V0vQ==}
+  /@capacitor/app@5.0.3(@capacitor/core@5.0.5):
+    resolution: {integrity: sha512-YqGWnD+O8wjNVyIctZCMkVqOr3RhxunLUBbmLpdRc66RzPN7xEk8GAwxY2YV/ehTL054mo3uqovpWvei7rYsEA==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:
-      '@capacitor/core': 5.0.4
+      '@capacitor/core': 5.0.5
     dev: true
 
-  /@capacitor/cli@5.0.4:
-    resolution: {integrity: sha512-ALzAZlU1L0lwrxtBcvYeu6tFt5i3cLglQdsbohGLqAhipMWW/QNuafIJshxMMR8lMeBAEVYizdDOxEUFHcnWOQ==}
+  /@capacitor/cli@5.0.5:
+    resolution: {integrity: sha512-Mf+lr2L98NfDZki3e5jdG176LUH0rf+OFoMa/oFf6dp4iHwQjS1HiHN5iaGcfJ5RWt432SMEB0dOgicXPb4KCQ==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
@@ -135,8 +135,8 @@ packages:
       - supports-color
     dev: true
 
-  /@capacitor/core@5.0.4:
-    resolution: {integrity: sha512-BFvziz9jM87pLHW2sXPNIzwrdmI5mAP0tBsBHgXoCO2+wVdpvIMYCpcst5BuTULaMz5JBFZZ6g6nqwgfs+SMCA==}
+  /@capacitor/core@5.0.5:
+    resolution: {integrity: sha512-sulwWXEhYI6cBIj1WnH9k+a8z1f4XTRDtdh3YfXNdeV36UT7T55GCeGrPoQMm7ww6iWyGuv1VEzVIuZFga8rtw==}
     dependencies:
       tslib: 2.5.3
     dev: true
@@ -948,7 +948,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.7
-      caniuse-lite: 1.0.30001495
+      caniuse-lite: 1.0.30001497
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1007,7 +1007,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001495
+      caniuse-lite: 1.0.30001497
       electron-to-chromium: 1.4.425
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.7)
@@ -1038,8 +1038,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite@1.0.30001495:
-    resolution: {integrity: sha512-F6x5IEuigtUfU5ZMQK2jsy5JqUUlEFRVZq8bO2a+ysq5K7jD6PPc9YXZj78xDNS3uNchesp1Jw47YXEqr+Viyg==}
+  /caniuse-lite@1.0.30001497:
+    resolution: {integrity: sha512-I4/duVK4wL6rAK/aKZl3HXB4g+lIZvaT4VLAn2rCgJ38jVLb0lv2Xug6QuqmxXFVRJMF74SPPWPJ/1Sdm3vCzw==}
     dev: true
 
   /chai@4.3.7:
